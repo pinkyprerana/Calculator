@@ -1,0 +1,50 @@
+
+body
+{
+width:100%;
+height:100%;
+background-image:url("bg.jpg");
+}
+
+.container
+{
+	background-image:url("bg.jpg");
+	display:flex;
+	height:500px;
+	margin: 50px auto;
+	padding: 40px auto;
+	border-radius: 50px;
+	justify-content: center;
+}
+
+.form
+{
+display:flex;
+width: 400px;
+background-color:white;
+margin:20px auto;
+padding: 40px auto;
+justify-content: center;
+}
+
+input
+{
+width: 60px;
+background-color: #f1f1f1;
+color: black;
+border: 3px solid blue;
+border-radius: 5px;
+padding: 10px;
+margin: 5px;
+font-size: 5px;
+}
+
+
+#calculate
+{
+width: 250px;
+border: 5px solid blue;
+border-radius: 3px;
+padding: 20px;
+margin: auto;
+}
